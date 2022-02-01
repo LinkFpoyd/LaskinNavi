@@ -8,11 +8,6 @@ export default function Laskin({ navigation }) {
   const [b, setB] = useState('');
   const [c, setC] = useState(0);
 
-  /* yllä alkuperäisen laskintehtäväni muuttujat, alla flatlistia varten luodut. Laitoin aluksi kaikki muuttujat tilamuuttujiksi,  
-  mutta silloin tuohon textiin päivittyi jostain syystä laskutoimituksen tulos vasta kolmannella renderillä, ja listaan
-  tuli merkintöjä väärillä tuloksilla siitä johtuen. Minulle ei ole ihan täysin selvää, miksi koodi käyttäyty näin? Ehkä
-  en ollut react opintojen alussa tarpeeksi hereillä :D*/
-
   var tulos = 0;
   const [data, setData] = useState([]);
   var text = '';
